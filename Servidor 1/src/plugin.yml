@@ -1,0 +1,12 @@
+name: InfernalCore
+version: 1.0
+main: com.permadeathcore.Main
+load: POSTWORLD
+api-version: 1.13
+authors: [vo1d, SebazCRC]
+website: http://infernalcore.net
+commands:
+  infernalcore:
+    description: Comando general
+    aliases: ic
+    usage:

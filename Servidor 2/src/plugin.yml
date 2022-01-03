@@ -1,0 +1,13 @@
+name: InfernalCore
+version: 1.0
+main: tech.sebazcrc.infernalcore.Main
+load: STARTUP
+api-version: 1.13
+softdepend: [WorldEdit]
+author: SebazCRC
+description: Plugin de InfernalCore.
+website: http://infernalcore.net
+commands:
+  ic:
+    description: Comando general
+    usage:

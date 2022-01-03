@@ -1,0 +1,61 @@
+Fecha: ''
+ban-enabled: true
+Server-Messages:
+  OnJoin: '&e%player% se ha unido al servidor.'
+  OnLeave: '&e%player% se ha desconectado del servidor.'
+  StormEnd: '&cLa tormenta ha llegado a su fin.'
+  Sleep: '&7%player% &efue a dormir.'
+  coords-msg-enable: true
+  DeathMessageTitle: '&c¡INFERNAL!'
+  DeathMessageSubtitle: '%player% ha muerto'
+  DeathMessageChat: '&c&lEl comienzo del sufrimiento eterno de &4&l%player% &c&lha comenzado. ¡HA SIDO INFERNABANEADO!'
+  DeathTrainMessage: '&c¡Comienza el Death Train con duración de %tiempo% horas!'
+  ActionBarMessage: '&7Quedan %tiempo% de tormenta'
+  DefaultDeathMessage: "&7%player% ha muerto y ahora descanza en paz."
+  CustomDeathMessages:
+    UnTrapoAhr: '&7Oye Trapo, eso no fue muy eyeyeyey de tu parte.'
+    SebForPresident: '&7Adiós, William.'
+    vo1d_dev: '&7Tranquilos, no murió, solamente estaba "probando"'
+    Alex1jared: '&7Murió de la forma más macha posible, o eso creo yo.'
+    SebazCRC: '&7Tranquilos, no murió, solamente estaba "probando"'
+
+Eventos:
+  SuperZombie: true
+  WitherStars: true
+TotemFail:
+  Enable: true
+  ChatMessage: '&7¡El tótem de &c%player% &7ha fallado!'
+  ChatMessageTotems: '&7¡Los tótems de &c%player% &7han fallado!'
+  NotEnoughTotems: '&7¡%player% no tenía suficientes tótems en el inventario!'
+  PlayerUsedTotemMessage: '&7El jugador %player% ha consumido un tótem (Probabilidad: %totem_fail% %porcent% %number%)'
+  PlayerUsedTotemsMessage: '&7El jugador %player% ha usado {ammount} tótems (Probabilidad: %totem_fail% %porcent% %number%)'
+  FailProbs:
+    15: 1
+    16: 1
+    17: 1
+    18: 1
+    19: 1
+    20: 2
+    21: 2
+    22: 2
+    23: 2
+    24: 2
+    25: 3
+    26: 3
+    27: 3
+    28: 3
+    29: 3
+    30: 5
+
+# ¡Define el mundo donde se ejecutará el Death train!
+# También recomendamos escribir el nombre del mundo del End
+Worlds:
+  MainWorld: 'world'
+  EndWorld: 'world_the_end'
+
+# Probabilidad de drop de Netherite
+# Por favor asegúrate de utilizar un número del 1 al 100, de lo contrario el plugin se va a bugear.
+Helmet: 15
+Chestplate: 15
+Leggings: 15
+Boots: 15
